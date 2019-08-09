@@ -74,4 +74,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/frame
 # Platform
 TARGET_BOARD_PLATFORM := atoll
 
+# QCOM
+BOARD_USES_QCOM_HARDWARE := true
+
 -include vendor/xiaomi/gram/BoardConfigVendor.mk
