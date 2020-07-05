@@ -102,6 +102,13 @@ TARGET_BOARD_PLATFORM := atoll
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
 
+# Recovery
+BOARD_INCLUDE_RECOVERY_DTBO := true
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
+TARGET_USES_MKE2FS := true
+
 # Sepolicy
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
