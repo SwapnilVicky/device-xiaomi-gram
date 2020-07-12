@@ -37,6 +37,9 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
