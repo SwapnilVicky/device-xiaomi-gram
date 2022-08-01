@@ -14,6 +14,10 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a9
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := gram
+TARGET_NO_BOOTLOADER := true
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2022-08-01
 
