@@ -102,6 +102,9 @@ TARGET_BOARD_PLATFORM := atoll
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
 
+# Sepolicy
+include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
