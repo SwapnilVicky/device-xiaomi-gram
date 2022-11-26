@@ -1,0 +1,14 @@
+cc_library_static {
+    name: "libinit_gram",
+    recovery_available: true,
+    srcs: [
+        "init.cpp"
+    ],
+    include_dirs: [
+        "system/libbase/include",
+        "system/core/init"
+    ],
+    shared_libs: [
+        "libbase",
+    ]
+}
