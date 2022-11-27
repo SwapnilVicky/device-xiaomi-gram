@@ -165,6 +165,8 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Sepolicy
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
